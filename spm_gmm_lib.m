@@ -1985,9 +1985,7 @@ for p=1:P
     xlabel(sprintf('x%d',p))
     ylabel('density')
     xlim(xlims);
-    if ymax > 0
-        ylim([0 ymax]);
-    end
+    ylim([0 1.1*ymax]);
     box on
     hold off
 
