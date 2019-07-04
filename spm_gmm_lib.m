@@ -1991,7 +1991,7 @@ for p=1:P
     ylabel('density')
     xlim(xlims);
     if ymax > 0
-        ylim([0 ymax]);
+        ylim([0 1.1*ymax]);
     end
     box on
     hold off
